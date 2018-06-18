@@ -4,6 +4,7 @@ DATA:   			09/05/18
 DESCRIPTION:		This is a program that implements some minix libary functions which are used to produce system calls to do the following: select an array of process ids from a specified index in the PM's process table,
 get the name of a process (identified by its pid),
 get information about the children of a given process (identified by its pid)
+ACHIEVED: 9.25/10
  */
 #include <lib.h>      // provides _syscall and message
 #include <unistd.h>   // provides function prototype
