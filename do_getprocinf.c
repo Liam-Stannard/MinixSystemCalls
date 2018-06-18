@@ -1,7 +1,12 @@
 /*
- * Replace the following string of 0s with your student number
- * 000000000
+ * /*
+AUTHOR: 			Liam Stannard
+DATA:   			09/05/18
+DESCRIPTION:		This is a source file that implements some minix system calls which do the following: select an array of process ids from a specified index in the PM's process table,
+get the name of a process (identified by its pid),
+get information about the children of a given process (identified by its pid)
  */
+ 
 #include <stdio.h>
 #include "pm.h"             // for glo.h:  mp, call_nr, who_p etc.
 #include "mproc.h"          // for proc table
